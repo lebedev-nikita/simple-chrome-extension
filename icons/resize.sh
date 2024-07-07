@@ -1,0 +1,5 @@
+INPUT=$1
+SIZE=$2
+OUTPUT=icon$SIZE.png
+cp $INPUT $OUTPUT
+mogrify -resize $SIZEx$SIZE $OUTPUT
