@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/chrome-manifest",
+
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "name": "My Vite Extenson",
+
+  "action": {
+    "default_popup": "index.html"
+  },
+
+  "permissions": ["scripting"],
+  "host_permissions": ["http://*/*", "https://*/*"],
+
+  "icons": {
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "64": "icon64.png"
+  }
+}
